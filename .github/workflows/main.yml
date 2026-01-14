@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '33 4 * * *' # Runs daily at 15:00 UTC
+    - cron: '*/5 * * * *' # Runs every 5 minutes
   workflow_dispatch:
 
 permissions:
